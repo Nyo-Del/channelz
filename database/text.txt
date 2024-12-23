@@ -1,0 +1,44 @@
+
+    Data Base
+
+
+Db Name : zzzspszw_mvpj
+
+User Name :herry   /  zzzspszw_herry
+
+db password : E=nvB5rgurIs
+
+
+ssh
+
+keyname = id_rsacz
+key password  =  =M+Me6Ql?OCm
+
+
+Generating public/private rsa key pair.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /home/zzzspszw/.ssh/id_rsacz.
+Your public key has been saved in /home/zzzspszw/.ssh/id_rsacz.pub.
+The key fingerprint is:
+SHA256:hckdczQUj1nDPeYK+tOpAVWTDU1R2zso1reVnG2DLEA
+The key's randomart image is:
++---[RSA 2048]----+
+|         Eoo**O++|
+|       ..+ +.Bo*+|
+|        +.o.o +.o|
+|         .o.o +.=|
+|        S..+.=.O+|
+|         .o o...=|
+|          ... .. |
+|           o.o   |
+|           .o    |
++----[SHA256]-----+
+
+
+
+//
+ln -s /home/zzzspszw/public_html/sub.channelz/storage/app/public /home/zzzspszw/public_html/channelzmyanmar.com/storage
+
+
+//delete ol

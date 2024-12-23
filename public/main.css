@@ -1,0 +1,81 @@
+.cus-cart {
+    width: 15rem !important; /* Force this to take precedence */
+ }
+ .mpic {
+    width: auto;
+    height: 240px;
+ }
+
+@media (max-width: 505px) and (min-width: 340px) {
+    .cus-cart{
+      width: 10rem !important; /* Adjust to a smaller size */
+    }
+    .mpic{
+        width: auto;
+        height: 170px;
+    }
+  }
+  @media (max-width: 340px) and (min-width: 290px) {
+    .cus-cart{
+      width: 8rem !important; /* Adjust to a smaller size */
+    }
+    .mpic {
+        width: auto;
+        height: 140px;
+    }
+
+  }
+  @media (max-width: 1336px) and (min-width: 991px) {
+    .cus-cart{
+      width: 10rem !important; /* Adjust to a smaller size */
+
+
+    }
+    .mpic{
+        width: auto;
+        height: 178px;
+    }
+    .kmb{
+      margin-bottom: 4px;
+    }
+  }
+
+
+  /*For Ads
+ /* Default styling for all devices */
+/* Default styling for all devices */
+.carousel-image {
+    width: 80%; /* Reduce width to fit better within smaller containers */
+    max-height: 300px; /* Set a smaller maximum height */
+    object-fit: contain; /* Ensure the image is fully visible without cropping */
+    border-radius: 10px; /* Optional: Adds rounded corners for aesthetics */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for better visual hierarchy */
+}
+
+/* Large screens (laptops/desktops) */
+@media (min-width: 992px) {
+    .carousel-image {
+        max-height: 350px; /* Slightly taller for large screens */
+        width: 60%; /* Limit width further for larger screens */
+    }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .carousel-image {
+        max-height: 350px; /* Slightly smaller height for tablets */
+        width: 70%; /* Adjust width for tablets */
+    }
+}
+
+/* Small screens (phones) */
+@media (max-width: 767px) {
+    .carousel-image {
+        max-height: 250px; /* Smaller height for mobile */
+        width: 90%; /* Use more of the screen width for mobile */
+    }
+}
+
+
+
+
